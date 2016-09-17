@@ -1,0 +1,63 @@
+body{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.blue{
+    color: rgb(0, 177, 242);
+}
+
+.green{
+    color: rgb(43, 182, 115);
+}
+
+.red{
+    color: rgb(239, 87, 42);
+}
+
+.navbar.navbar-default.navbar-fixed-top{
+    background-image: url("../img/featurette-background.png");
+}
+
+.navbar-default .navbar-nav > .active > a{
+     background: rgb(0, 200, 242);
+     color:#EEEEEE;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+    background: rgb(43, 182, 115);
+    color:#EEEEEE;
+}
+
+#navbar > ul.nav.navbar-nav.navbar-right > li > a:hover{
+    background: rgb(239, 87, 42);
+    color:#EEEEEE;
+}
+
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+     background: rgb(0, 200, 242);
+     color:#EEEEEE;
+}
+
+.vertical-center {
+    min-height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.modal-header,.modal-footer{
+    background-image: url("../img/featurette-background.png");
+}
+
+.ribbon{
+    z-index: 9999;
+}
+
+.navbar-brand{
+    margin-top: 0px !important;
+    padding-top: 2px !important;
+}

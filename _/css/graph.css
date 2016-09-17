@@ -1,0 +1,62 @@
+body{
+    margin:0px;
+    padding:0px;
+    padding-top:65px;;
+}
+
+#mynetwork{
+    width: 100%;
+    height: 80vh;
+    border-width: thin;
+    border: 1px solid rgb(0, 177, 242);
+    overflow-x:hidden;
+    overflow-y:hidden; 
+    background-image: url("../img/featurette-background.png");
+}
+
+#licenses-list{
+    height: 80vh;
+    overflow-x:hidden;
+    overflow-y:scroll; 
+}
+
+div.list-group{
+    padding:0;
+    margin:0;
+}
+
+.list-special .list-group-item:first-child {
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+.list-special .list-group-item:last-child {
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.multiselect-container.dropdown-menu{
+    height: auto;
+    max-height: 200px;
+    overflow-x:hidden;
+    overflow-y:scroll; 
+    min-width: 135px;
+    margin-top: 0px; 
+}
+
+#license-list .list-group-item.active{
+    background: #00B1F2;
+    color:#EEEEEE;
+}
+
+#edge-modal .modal-footer .btn-primary{
+    margin-right: 5px;
+}
+
+.panel-body{
+    background-image: url("../img/featurette-background.png");
+}
+
+#server-error .jumbotron{
+    background-image: url('../img/featurette-background.png');
+}

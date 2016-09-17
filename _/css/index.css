@@ -1,0 +1,71 @@
+#loading{
+    display:none;
+}
+
+#spdx-btn{
+    background-color: rgb(43, 182, 115);
+    color:#FFFFFF;
+}
+
+#graph-btn{
+    background-color: rgb(0, 177, 242);
+    color:#FFFFFF;
+}
+
+#api-btn{
+    background-color: rgb(239, 87, 42);
+    color:#FFFFFF;
+}
+
+.white{
+    color:rgb(43, 182, 115);
+}
+
+.yellow{
+    color:rgb(240,230,140);
+}
+
+.error-font{
+    color:rgb(250, 120, 120);
+}
+
+.grey{
+    color:#BBBBBB;
+}
+
+.jumbotron{
+    background-image: url(../img/featurette-background.png);
+}
+
+.file-list .list-group-item a{
+    text-decoration: none;
+    color:rgb(0, 177, 242);
+}
+
+.file-list .list-group-item a:hover{
+    color:rgb(0, 100, 242);
+}
+
+.list-group-item p{
+    font-size: 110%;
+}
+
+#correctSpdxModal .modal-footer .btn-primary{
+    margin-right: 5px;
+}
+
+.refresh-btn{
+    text-decoration: none;
+    color:black;
+}
+
+.refresh-btn:hover{
+    background-color: rgb(0, 177, 242);
+}
+
+.color-holder{
+    margin-top:10px;
+    padding-left: 10px;
+    background-color: white;
+    border-radius: 5px;
+}

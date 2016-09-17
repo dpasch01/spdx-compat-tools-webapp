@@ -1,0 +1,12 @@
+.carousel-caption{
+    color:black;
+}
+
+h1{
+    background-image: url("../img/featurette-background.png");
+    padding: 10px;
+}
+
+p {
+    font-size: 110%;
+}

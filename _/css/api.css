@@ -1,0 +1,23 @@
+body{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.api-header{
+    background-image: url("../img/featurette-background.png");
+}
+
+.api-body{
+	padding-left:0  !important;
+    padding-right:0 !important;
+}
+
+.panel-heading:hover{
+    background:  rgb(43, 182, 115);
+    color:#EEEEEE;
+}
+
+.panel-heading.active{
+    background:  rgb(239, 87, 42);
+    color:#EEEEEE;
+}
